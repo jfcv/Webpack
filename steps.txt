@@ -1,0 +1,23 @@
+
+source: //webpack.js.org/guides/getting-started/
+
+/** 
+ * you don't have to but if you create the webpack.config.js file
+ * you can define the entry & output points
+ */
+
+webpack.config.js
+
+    CONTENT:
+    const path = require("path");
+
+    module.exports = {
+        entry: "./src/index.js",
+        output: {
+        filename: "main.js",
+        path: path.resolve(__dirname, "dist"),
+        },
+    };
+
+    COMMAND:
+        npx webpack --config webpack.config.js
