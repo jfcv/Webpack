@@ -1,5 +1,5 @@
 
-source: //webpack.js.org/guides/getting-started/
+source: https://webpack.js.org/guides/getting-started/
 
 /** 
  * you don't have to but if you create the webpack.config.js file

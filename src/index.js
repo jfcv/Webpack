@@ -1,4 +1,4 @@
-require("!style-loader!css-loader!./style.css");
+require("./style.css");
 let people = require("./people.js");
 let $ = require("jquery");
 
